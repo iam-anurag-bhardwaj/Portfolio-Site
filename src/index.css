@@ -187,6 +187,10 @@
     font-size: var(--h1-font-size);
   }
 
+  .home-data {
+    padding-top: 55px;
+  }
+
   .home-description {
     text-align: justify;
   }
