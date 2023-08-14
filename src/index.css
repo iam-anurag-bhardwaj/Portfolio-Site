@@ -190,6 +190,10 @@
   .home-description {
     text-align: justify;
   }
+  
+  .home-data {
+    margin-top: 55px;
+  }
 
   .info-title {
     display: block;
