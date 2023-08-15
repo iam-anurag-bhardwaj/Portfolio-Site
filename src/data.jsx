@@ -117,7 +117,7 @@ export const stats = [
   {
     id: 1,
     no: '2+',
-    title: 'Months of <br /> Experience',
+    title: 'Months of <br /> Professional Experience',
   },
 
   {
@@ -129,7 +129,7 @@ export const stats = [
   {
     id: 3,
     no: '5+',
-    title: 'Certification <br /> Won',
+    title: 'Certification <br /> Completed',
   },
 
   {
@@ -172,7 +172,7 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2019',
-    title: 'Schooling <span> Azad Public School </span>',
+    title: 'Intermediate <span> Azad Public School </span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
   },
 ];
@@ -216,7 +216,7 @@ export const skills = [
 
   {
     id: 7,
-    title: "Reponive Design",
+    title: "Reponsive Design",
     percentage: "57"
   },
 
