@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Theme from "./components/Theme";
@@ -10,7 +10,7 @@ import Portfolio from "./pages/portfolio/Portfolio";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router basename="/Portfolio-Site" >
       <Navbar />
       <Theme />
       <Routes>
@@ -19,7 +19,7 @@ function App() {
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
